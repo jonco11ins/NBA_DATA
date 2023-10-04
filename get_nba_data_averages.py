@@ -101,17 +101,3 @@ with pd.ExcelWriter(os.path.join(directory_path, 'consolidated_complete_NBA_DATA
             df.to_excel(writer, sheet_name=sheet_name, index=False)
 
 print("Files have been consolidated!")
-
-
-# #DELETE MERGED FILES after the fact
-# import os
-# delete_path = "/Users/jonco11ins/Documents/NBA_data"  # Change this to your directory path
-# # Iterate through each file in the directory
-# for filename in os.listdir(delete_path):
-#     # Check if the filename starts with "team" and ends with ".csv"
-#     if filename.startswith("Team") or filename.startswith("Complete_"):
-#         file_path = os.path.join(delete_path, filename)
-        
-#         # Remove the file
-#         os.remove(file_path)
-#         print(f"Deleted: {file_path}")
