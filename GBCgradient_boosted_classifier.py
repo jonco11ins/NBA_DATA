@@ -42,8 +42,6 @@ predicted_probabilities)
 
 #results:
 # Accuracy: 80.77%
-
-# the test data I provided was desgned by me to look like data from a team that would loose, the model predicted correctly
 # Classification Report:
 #                precision    recall  f1-score   support
 
@@ -54,5 +52,6 @@ predicted_probabilities)
 #    macro avg       0.81      0.81      0.81       494
 # weighted avg       0.81      0.81      0.81       494
 
+# The test data I provided was designed by me to look like data from a team that would lose, the model predicted correctly
 # [0] [[0.7408348 0.2591652]]
     #[0] means predicted loss and the following array indicates how confident it is
