@@ -35,3 +35,6 @@ predictions = model.predict(X_test)
 # Evaluate the model's performance
 mse = mean_squared_error(y_test, predictions)
 print(f"Mean Squared Error: {mse}")
+
+# Results:
+# Mean Squared Error: 0.14517611336032388
