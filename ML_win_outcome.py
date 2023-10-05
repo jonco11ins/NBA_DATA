@@ -6,8 +6,9 @@ from sklearn.metrics import accuracy_score
 data = pd.read_csv('/Users/jonco11ins/Documents/NBA_data/2022_NBA_GAME_STATS.csv')
 # Drop the columns you want to ignore
 data.drop(columns=['min','team_name','team_nickname','team_code', 'plusMinus', 'points',
-'team_id','fastBreakPoints','pointsInPaint','biggestLead','secondChancePoints','pointsOffTurnovers','longestRun'], inplace=True)
-#data.drop(columns=['min', 'plusMinus', 'points','team_name','team_nickname','team_code','team_id'], inplace=True)
+'team_id','fastBreakPoints','pointsInPaint','biggestLead','secondChancePoints','pointsOffTurnovers',
+'longestRun','turnovers_from_3s','turnovers_from_shots'], inplace=True)
+data.dropna(inplace=True)
 
 # Separate the features and the target
 X = data.drop(columns='outcome')
