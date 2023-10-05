@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# A graph like this can be generated easily in Excel/sheets, but for the purpose of this project I utilized Python
 # Assuming your data is in a CSV file named "NBA_data - COMPILED.csv"
 data = pd.read_csv("/Users/jonco11ins/Documents/NBA_data/NBA_data - COMPILED.csv")
 
