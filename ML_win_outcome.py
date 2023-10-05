@@ -32,24 +32,22 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy * 100:.2f}%")
 
 # results:
-#                 feature  importance
-# 0                    fgm    0.158908
-# 10                defReb    0.136269
-# 8                    tpp    0.091953
-# 17  turnovers_from_shots    0.071004
-# 2                    fgp    0.060545
-# 11                totReb    0.054743
-# 5                    ftp    0.049421
-# 3                    ftm    0.045501
-# 14                steals    0.042963
-# 15             turnovers    0.042450
-# 4                    fta    0.037572
-# 18     turnovers_from_3s    0.032155
-# 7                    tpa    0.031885
-# 1                    fga    0.028609
-# 16                blocks    0.028257
-# 6                    tpm    0.025795
-# 13                pFouls    0.025421
-# 9                 offReb    0.018907
-# 12               assists    0.017643
-# Accuracy: 70.04%
+#       feature  importance
+# 0         fgm    0.171212
+# 10     defReb    0.152825
+# 8         tpp    0.112623
+# 1         fga    0.060604
+# 2         fgp    0.058229
+# 3         ftm    0.052569
+# 15  turnovers    0.051816
+# 4         fta    0.046795
+# 14     steals    0.045902
+# 13     pFouls    0.036223
+# 12    assists    0.036104
+# 6         tpm    0.035126
+# 11     totReb    0.034224
+# 5         ftp    0.030714
+# 16     blocks    0.028928
+# 9      offReb    0.023075
+# 7         tpa    0.023030
+# Accuracy: 69.03%
