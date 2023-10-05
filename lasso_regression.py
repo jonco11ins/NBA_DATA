@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore", message="X has feature names, but LassoCV was 
 # Load data
 file_path = '/Users/jonco11ins/Documents/NBA_data/2022_NBA_GAME_STATS.csv'
 data = pd.read_csv(file_path)
-data.drop(columns=['min','team_name','team_nickname','team_code', 'plusMinus', # 'points',
+data.drop(columns=['min','team_name','team_nickname','team_code', 'plusMinus', 'points',
 'team_id','fastBreakPoints','pointsInPaint','biggestLead','secondChancePoints','pointsOffTurnovers','longestRun','turnovers_from_3s','turnovers_from_shots'], inplace=True)
 data.dropna(inplace=True)
 
